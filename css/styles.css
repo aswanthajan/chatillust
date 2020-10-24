@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(270, 20%, 96%);
+  margin-top: 0;
+  margin-left: 0;
+  font-family: rubik, sans-serif;
+  font-size: 16px;
+}
+
+.leftmain {
+  float: left;
+  display: block;
+  width: 40%;
+  height: auto;
+}
+
+.left {
+  width: 25%;
+  position: absolute;
+  background-image: linear-gradient(to top right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+.centre {
+  margin: 100px 0 100px 300px;
+  background: hsl(270, 20%, 96%);
+  width: 220px;
+  height: auto;
+  border: 8px solid White;
+  border-radius: 25px;
+}
+
+.centretop {
+  border-top: 0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  font-size: 10px;
+  width: 100%;
+  height: 70px;
+  background-image: linear-gradient(to top right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+
+.toppest {
+  margin: 0 40px;
+  border-top: 0;
+  padding: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 20px;
+  background-color: white;
+}
+
+.toppestpara {
+  float: right;
+  margin-left: 2px;
+  width: auto;
+  height: 30px;
+}
+
+.samuelimg {
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 18px;
+  margin-right: 5px;
+  float: left;
+}
+
+.topmain {
+  height: 40px;
+  padding-top: 5px;
+  padding-right: 0px;
+  width: 184px;
+}
+
+.topleft {
+  border: 0;
+  padding: 0;
+  width: 10px;
+  height: 40px;
+  background-color: inherit;
+  color: white;
+  float: left;
+  margin-left: 8px;
+  font-weight: bolder;
+  font-stretch: ultra-expanded;
+}
+
+.topcent {
+  width: 140px;
+  margin: 0 auto;
+  padding: 2px;
+  font-size: 10px;
+}
+
+.topright {
+  width: 15px;
+  height: 40px;
+  float: right;
+  margin-right: 8px;
+  color: white;
+  background: inherit;
+  border: 0;
+}
+
+h2, h3, h4 {
+  color: white;
+  margin: 0;
+}
+
+.linetext {
+  color: hsl(270, 7%, 64%);
+  padding: 1px;
+  font-weight: 400;
+  font-size: 8px;
+}
+
+.inside {
+  padding: 6px;
+  margin: 2px;
+}
+
+.insideleft {
+  color: hsl(276, 55%, 52%);
+  width: 70%;
+  height: auto;
+  font-size: 8px;
+  margin: 4px;
+  padding: 5px;
+  float: left;
+  border: 4px;
+  border-radius: 5px;
+  background-color: hsl(206, 6%, 79%);
+}
+
+.insideimage {
+  float: right;
+  padding: 5px;
+}
+
+.insideimage img {
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+}
+
+.insideright {
+  color: hsl(276, 55%, 52%);
+  width: 50%;
+  height: auto;
+  font-size: 8px;
+  margin: 3px;
+  padding: 5px;
+  float: right;
+  border: 4px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.insidebottom {
+  color: hsl(289, 100%, 72%);
+  width: 70%;
+  height: auto;
+  font-size: 10px;
+  margin: 5px;
+  padding: 2px;
+  float: left;
+  border: 4px;
+  border-radius: 12px 8px;
+  background-image: linear-gradient(to top right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+
+.insidebottom span {
+  float: right;
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.message {
+  width: 200px;
+  margin: 10px auto;
+  padding: 5px;
+  height: 30px;
+  font-size: 10px;
+  display: inline-block;
+  background-color: white;
+  border: 2px;
+  border-radius: 15px;
+}
+
+#placeholder {
+  color: hsl(206, 6%, 79%);
+  border: 0;
+}
+
+#submit {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  float: right;
+}
+
+.rightmain {
+  float: right;
+  font-size: 15px;
+  width: 60%;
+  height: auto;
+  padding: 120px;
+  margin: 100px;
+  line-height: 1.5;
+}
+
+.rightpara {
+  width: 400px;
+  height: auto;
+}
+
+.rightmain p {
+  color: hsl(270, 7%, 64%);
+}
+
+.rightmain h1 {
+  color: hsl(271, 36%, 24%);
+}
+
+.attribution {
+  width: 100%;
+  margin: 500px auto;
+position: absolute;
+  font-size: 11px;
+  text-align: center;
+  display: inline-block;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
